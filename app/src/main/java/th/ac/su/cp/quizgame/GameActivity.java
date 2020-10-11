@@ -110,6 +110,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 score.setText(countScore+" คะแนน");
                 //Toast.makeText(GameActivity.this, "ผิด", Toast.LENGTH_SHORT).show();
             }
+            //สร้าง dialog
             AlertDialog.Builder dialog = new AlertDialog.Builder(GameActivity.this);
             dialog.setTitle("สรุปผล");
             dialog.setMessage("คุณได้ "+countScore+" คะแนน\n\nต้องการเริ่มเกมใหม่หรือไม่");
